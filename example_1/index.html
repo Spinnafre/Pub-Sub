@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pub/Sub</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div id="app">
+        <form>
+            <h1>Publishers</h1>
+            <label for="first-input">Notificar evento 1</label>
+            <input type="text" id="first-input" />
+            <button id="first-notification-btn">ENVIAR NOTIFICAÇÃO</button>
+            <br />
+            <label for="second-input">Notificar evento 2</label>
+            <input type="text" id="second-input" />
+            <button id="second-notification-btn">ENVIAR NOTIFICAÇÃO</button>
+
+            </span>
+        </form>
+    </div>
+
+    <br />
+
+    <form>
+        <h1>Subscribers</h1>
+        <p>
+            <button id="first-un-subscriber-btn">Cancelar notificação sobre evento 1</button>
+            <button id="first-subscriber-btn">Ser notificado sobre evento 1</button>
+        <p>First Subscriber (Exibição de notificação 1):</p>
+        <span id="first-subscriber"></span>
+        </p>
+        <p>
+            <button id="second-un-subscriber-btn">Cancelar notificação sobre evento 2</button>
+            <button id="second-subscriber-btn">Ser notificado sobre evento 2</button>
+        <p>Second Subscriber (Exibição da notificação 2):</p>
+        <span id="second-subscriber"></span>
+        </p>
+    </form>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
